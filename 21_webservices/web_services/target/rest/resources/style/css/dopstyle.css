@@ -1,0 +1,18 @@
+/*ÂÛÑÎÒÀ ØÀÏÊÈ*/
+.head-block{
+	height:250px;
+	background:url(../images/head.jpg)center center no-repeat;
+}
+/*ÂÛÑÎÒÀ ÌÅÍŞ*/
+.top-menu{
+	background:#daf2fe;
+}
+.top-menu ul{
+	padding-left:0;
+	margin-bottom:0;
+}
+.top-menu li{
+	display:inline-block;
+	margin-left:10px;
+	padding:3px 10px;
+}

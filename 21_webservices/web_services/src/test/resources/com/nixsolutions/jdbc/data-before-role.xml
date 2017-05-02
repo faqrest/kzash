@@ -1,0 +1,15 @@
+<dataset>
+
+   <role role_id = "1" role_name="user"/>
+   <role role_id = "2" role_name="admin"/>
+   <role role_id = "3" role_name="librarian"/>
+
+   <user user_id = "1" first_name="Vasiliy" last_name="Ivanov" role_id = "1" reputation = "0.0" password = "vas1" e_mail = "vasyok@gmail.com" phone = "+380500500112" address_id = "1" document = "true"/>
+   <user user_id = "2" first_name="Ivan" last_name="Vasiliev" role_id = "2" reputation = "0.0" password = "qwerty" e_mail = "vanyok1212@gmail.com" phone = "+380671111111" address_id = "2" document = "false"/>
+   <user user_id = "3" first_name="Arsentiy" last_name="Medvedev" role_id = "3" reputation = "0.0" password = "boss123" e_mail = "boss-admin@gmail.com" phone = "+380677777777" address_id = "3" document = "true"/>
+   <user user_id = "4" first_name="Vasiliy" last_name="Ivanov" role_id = "1" reputation = "0.0" password = "Uuuu23" e_mail = "vasiliy@gmail.com" phone = "+380667778899" address_id = "4" document = "true"/>
+
+  <orders orders_id = "1" actual_return_date = "2017-12-12" book_id="1" user_id="1" order_date = "2016-12-12" expected_return_date = "2017-12-12" order_type_id = "1" comment = "door-key 567"/>
+   <orders orders_id = "2" actual_return_date = "2017-12-12" book_id="2" user_id="4" order_date = "2016-11-15" expected_return_date = "2017-12-11" order_type_id = "1" comment = "door-key 567"/>
+
+</dataset>
